@@ -1,0 +1,8 @@
+#rabbitmq config begin# rabbitmq服务器地址 （默认为127.0.0.1）
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    # rabbitmq服务器连接端口 （默认为5672）
+    port: 5672
+    username: guest
+    password: guest
